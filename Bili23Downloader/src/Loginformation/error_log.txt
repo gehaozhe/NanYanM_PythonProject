@@ -1,0 +1,99 @@
+================================================================================
+>>> Caused Time: 2026/02/07 11:24:35
+================================================================================
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/gui/window/download/download_v4.py", line 353, in add_to_download_list
+    Utils.create_download_file(download_list)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/gui/window/download/download_v4.py", line 236, in create_download_file
+    entry.update()
+    ~~~~~~~~~~~~^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/common/model/task_info.py", line 349, in update
+    self.write(self.to_dict())
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/common/model/task_info.py", line 355, in write
+    with open(self.file_path, "w", encoding = "utf-8") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/Loginformation/Tasks/info_71645550.json'
+================================================================================
+
+================================================================================
+>>> Caused Time: 2026/02/07 16:25:04
+================================================================================
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/gui/window/download/item_utils.py", line 220, in worker
+    FFUtils.merge(self.task_info, self.get_merge_callback())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/utils.py", line 46, in merge
+    command = FFCommand.get_merge_dash_command(task_info)
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/command.py", line 67, in get_merge_dash_command
+    command.add(cls.get_add_cover_command(output_temp_file, cover_temp_file, cover_output_file))
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/command.py", line 161, in get_add_cover_command
+    return ffcommand.add_cover()
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FFmpegCommand' object has no attribute 'add_cover'
+================================================================================
+
+================================================================================
+>>> Caused Time: 2026/02/07 16:26:15
+================================================================================
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/gui/window/download/item_utils.py", line 220, in worker
+    FFUtils.merge(self.task_info, self.get_merge_callback())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/utils.py", line 46, in merge
+    command = FFCommand.get_merge_dash_command(task_info)
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/command.py", line 67, in get_merge_dash_command
+    command.add(cls.get_add_cover_command(output_temp_file, cover_temp_file, cover_output_file))
+                ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/a1234/Downloads/TraeProject/Bili23Downloader/src/utils/module/ffmpeg/command.py", line 161, in get_add_cover_command
+    return ffcommand.add_cover()
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FFmpegCommand' object has no attribute 'add_cover'
+================================================================================
+
+================================================================================
+>>> Caused Time: 2026/04/17 23:12:13
+================================================================================
+Traceback (most recent call last):
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\main\main_v3.py", line 176, in onMenuEVT
+    Window.settings_window(self)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\main\utils.py", line 55, in function
+    rtn = func(*args, **kwargs)
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\main\utils.py", line 139, in settings_window
+    window = SettingWindow(parent)
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\settings\settings_v2.py", line 23, in __init__
+    self.init_UI()
+    ~~~~~~~~~~~~^^
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\settings\settings_v2.py", line 33, in init_UI
+    self.note.AddPage(FFmpegPage(self.note), _("FFmpeg"))
+                      ~~~~~~~~~~^^^^^^^^^^^
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\settings\ffmpeg.py", line 27, in __init__
+    self.load_data()
+    ~~~~~~~~~~~~~~^^
+  File "g:\myown\Tools\Python\项目源码\Bili23Downloader\src\gui\window\settings\ffmpeg.py", line 96, in load_data
+    self.path_box.SetValue(Config.Merge.ffmpeg_path)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TextEntry.SetValue(): argument 1 has unexpected type 'NoneType'
+================================================================================
+

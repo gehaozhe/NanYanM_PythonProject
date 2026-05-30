@@ -1,0 +1,25 @@
+{
+    "header": {
+        "min_version": 166000
+    },
+    "user": {
+        "login": false,
+        "face_url": "",
+        "username": "",
+        "login_expires": 0,
+        "SESSDATA": "",
+        "DedeUserID": "",
+        "DedeUserID__ckMd5": "",
+        "bili_jct": ""
+    },
+    "auth": {
+        "buvid3": "0DE8DD93-8F21-62A2-B304-49661274FBBA86721infoc",
+        "buvid4": "3B12E237-2619-E6FB-1A20-27C565F8D54E86721-026012920-ZmE8swOOFfnZ4oNpAeC1LA==",
+        "buvid_fp": "af0f77616519de4f6249936734da501c",
+        "b_nut": 1769691187,
+        "bili_ticket": "eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzY2OTc5MDIsImlhdCI6MTc3NjQzODY0MiwicGx0IjotMX0.BYchn9Asy6H-K9CzpdcbLFIvnm6Eb2VA1BVYzTtYKtM",
+        "bili_ticket_expires": 1776697900,
+        "uuid": "A11065108D-DEA10-A284-A10E2-81810A19EAE10291186infoc",
+        "refresh_token": ""
+    }
+}

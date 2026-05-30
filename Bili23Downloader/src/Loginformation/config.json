@@ -1,0 +1,218 @@
+{
+    "header": {
+        "min_version": 170000
+    },
+    "basic": {
+        "language": "zh_CN",
+        "listen_clipboard": true,
+        "enable_history": true,
+        "exit_option": 0,
+        "auto_popup_option_dialog": true,
+        "auto_show_download_window": true,
+        "remember_window_status": false,
+        "always_on_top": false,
+        "download_danmaku_file": false,
+        "danmaku_file_type": 3,
+        "download_subtitle_file": false,
+        "subtitle_file_type": 4,
+        "subtitle_lan_option": 0,
+        "subtitle_lan_custom_type": [],
+        "download_cover_file": false,
+        "cover_file_type": 0,
+        "download_metadata_file": false,
+        "metadata_file_type": 0,
+        "window_pos": [],
+        "window_size": [],
+        "window_maximized": false,
+        "is_new_user": false,
+        "no_paid_check": false,
+        "ass_style": {
+            "danmaku": {
+                "font_name": "黑体",
+                "font_size": 40,
+                "bold": 0,
+                "italic": 0,
+                "underline": 0,
+                "strikeout": 0,
+                "border": 1.0,
+                "shadow": 0.0,
+                "non_alpha": false,
+                "scale_x": 100,
+                "scale_y": 100,
+                "angle": 0,
+                "spacing": 0.0,
+                "subtitle_obstruct": false,
+                "area": 5,
+                "alpha": 80,
+                "speed": 3,
+                "density": 1
+            },
+            "subtitle": {
+                "font_name": "黑体",
+                "font_size": 48,
+                "bold": 0,
+                "italic": 0,
+                "underline": 0,
+                "strikeout": 0,
+                "border": 2.0,
+                "shadow": 1.0,
+                "non_alpha": false,
+                "primary_color": "&H00FFFFFF&",
+                "secondary_color": "&H00FFFFFF&",
+                "border_color": "&H00000000&",
+                "shadow_color": "&H00000000&",
+                "scale_x": 100,
+                "scale_y": 100,
+                "angle": 0,
+                "spacing": 0.0,
+                "marginL": 10,
+                "marginR": 10,
+                "marginV": 20,
+                "alignment": 2
+            }
+        }
+    },
+    "download": {
+        "path": "/Users/a1234/Downloads/bilibili_videos",
+        "file_name_template_list": [
+            {
+                "template": {
+                    "0": "{title}"
+                },
+                "type": 1
+            },
+            {
+                "template": {
+                    "0": "{part_title}/P{page} - {title}"
+                },
+                "type": 2
+            },
+            {
+                "template": {
+                    "0": "{collection_title}/{section_title}/{part_title}/{title}"
+                },
+                "type": 3
+            },
+            {
+                "template": {
+                    "0": "{interact_title}/{title}"
+                },
+                "type": 4
+            },
+            {
+                "template": {
+                    "0": "{series_title}/{section_title}/{title}",
+                    "1": "{series_title}/{section_title}/{title}"
+                },
+                "type": 5
+            },
+            {
+                "template": {
+                    "0": "{series_title_original}/{section_title_ex}/{episode_tag} - {title}",
+                    "1": "{series_title_original}/Extra/{section_title}/{title}"
+                },
+                "type": 6
+            },
+            {
+                "template": {
+                    "0": "{series_title}/{section_title}/{title}"
+                },
+                "type": 7
+            },
+            {
+                "template": {
+                    "0": "{up_uid}_{up_name}"
+                },
+                "type": 8
+            },
+            {
+                "template": {
+                    "0": "{up_uid}_{up_name}/{favlist_name}"
+                },
+                "type": 9
+            }
+        ],
+        "strict_naming": false,
+        "max_download_count": 5,
+        "video_quality_priority": [
+            127,
+            126,
+            125,
+            120,
+            116,
+            112,
+            100,
+            80,
+            64,
+            32,
+            16
+        ],
+        "audio_quality_priority": [
+            30251,
+            30250,
+            30280,
+            30232,
+            30216
+        ],
+        "video_codec_priority": [
+            7,
+            12,
+            13
+        ],
+        "enable_notification": false,
+        "delete_history": false,
+        "enable_speed_limit": false,
+        "speed_mbps": 10,
+        "add_independent_number": false,
+        "number_type": 1
+    },
+    "advanced": {
+        "enable_switch_cdn": true,
+        "cdn_list": [
+            "upos-sz-mirror08c.bilivideo.com",
+            "upos-sz-mirrorcoso1.bilivideo.com",
+            "upos-sz-mirrorhw.bilivideo.com",
+            "upos-sz-mirror08h.bilivideo.com",
+            "upos-sz-mirrorcos.bilivideo.com",
+            "upos-sz-mirrorcosb.bilivideo.com",
+            "upos-sz-mirrorali.bilivideo.com",
+            "upos-sz-mirroralib.bilivideo.com",
+            "upos-sz-mirroraliov.bilivideo.com",
+            "upos-sz-mirrorcosov.bilivideo.com",
+            "upos-hz-mirrorakam.akamaized.net",
+            "upos-sz-mirrorcf1ov.bilivideo.com"
+        ],
+        "retry_when_download_error": true,
+        "download_error_retry_count": 3,
+        "retry_when_download_suspend": true,
+        "download_suspend_retry_interval": 3,
+        "always_use_https_protocol": true,
+        "enable_ssl_verify": true,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0",
+        "webpage_option": 0,
+        "websocket_port": 8765
+    },
+    "merge": {
+        "ffmpeg_path": "C:\\Users\\xiexia\\ffmpeg.exe",
+        "ffmpeg_check_available_when_launch": true,
+        "override_option": 0,
+        "m4a_to_mp3": true,
+        "keep_original_files": false
+    },
+    "proxy": {
+        "proxy_mode": 0,
+        "proxy_ip": "",
+        "proxy_port": 1,
+        "enable_auth": false,
+        "auth_username": "",
+        "auth_password": ""
+    },
+    "misc": {
+        "episode_display_mode": 3,
+        "show_episode_full_name": false,
+        "auto_check_episode_item": false,
+        "show_user_info": true,
+        "enable_debug": true,
+        "ignore_version": 200100
+    }
+}

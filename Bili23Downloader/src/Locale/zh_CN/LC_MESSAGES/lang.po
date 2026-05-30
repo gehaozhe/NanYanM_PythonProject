@@ -1,0 +1,2048 @@
+# Bili23 Downloader
+# zh_CN
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.70.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-09 23:35+0800\n"
+"PO-Revision-Date: 2025-12-14 00:00+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.7\n"
+
+# -------------- basic --------------
+
+msgid "警告"
+msgstr "警告"
+
+msgid "提示"
+msgstr "提示"
+
+msgid "确定"
+msgstr "确定"
+
+msgid "取消"
+msgstr "取消"
+
+msgid "是"
+msgstr "是"
+
+msgid "否"
+msgstr "否"
+
+msgid "不再提示"
+msgstr "不再提示"
+
+msgid "忽略"
+msgstr "忽略"
+
+msgid "重试"
+msgstr "重试"
+
+msgid "关闭"
+msgstr "关闭"
+
+# -------------- src/gui/component/menu/episode_list.py --------------
+msgid "查看视频封面(&V)"
+msgstr "查看视频封面(&V)"
+
+msgid "复制标题名称(&C)"
+msgstr "复制标题名称(&C)"
+
+msgid "复制视频链接(&U)"
+msgstr "复制视频链接(&U)"
+
+msgid "在浏览器中打开(&B)"
+msgstr "在浏览器中打开(&B)"
+
+msgid "修改标题名称(&E)"
+msgstr "修改标题名称(&E)"
+
+msgid "取消选择(&N)"
+msgstr "取消选择(&N)"
+
+msgid "选择(&S)"
+msgstr "选择(&S)"
+
+msgid "展开(&X)"
+msgstr "展开(&X)"
+
+msgid "折叠(&O)"
+msgstr "折叠(&O)"
+
+msgid "批量选取项目(&P)"
+msgstr "批量选取项目(&P)"
+
+msgid "刷新媒体信息(&R)"
+msgstr "刷新媒体信息(&R)"
+
+# -------------- src/gui/component/menu/episode_option.py --------------
+msgid "显示单个视频"
+msgstr "显示单个视频"
+
+msgid "显示视频所在的列表"
+msgstr "显示视频所在的列表"
+
+msgid "显示全部相关视频"
+msgstr "显示全部相关视频"
+
+msgid "显示完整剧集名称"
+msgstr "显示完整剧集名称"
+
+msgid "剧集列表显示设置"
+msgstr "剧集列表显示设置"
+
+# -------------- src/gui/component/menu/url.py --------------
+msgid "支持解析的链接(&U)"
+msgstr "支持解析的链接(&U)"
+
+# -------------- src/gui/component/menu/user.py --------------
+msgid "刷新(&R)"
+msgstr "刷新(&R)"
+
+# -------------- src/gui/component/staticbox/border.py --------------
+msgid "边框"
+msgstr "边框"
+
+msgid "边框宽度"
+msgstr "边框宽度"
+
+msgid "阴影"
+msgstr "阴影"
+
+msgid "阴影距离"
+msgstr "阴影距离"
+
+msgid "不透明背景"
+msgstr "不透明背景"
+
+msgid "文字背景不透明"
+msgstr "文字背景不透明"
+
+# -------------- src/gui/component/staticbox/extra.py --------------
+msgid "附加内容下载选项"
+msgstr "附加内容下载选项"
+
+msgid "下载视频弹幕"
+msgstr "下载视频弹幕"
+
+msgid "弹幕文件格式"
+msgstr "弹幕文件格式"
+
+msgid "下载视频字幕"
+msgstr "下载视频字幕"
+
+msgid "字幕文件格式"
+msgstr "字幕文件格式"
+
+msgid "自定义字幕语言"
+msgstr "自定义字幕语言"
+
+msgid "下载视频封面"
+msgstr "下载视频封面"
+
+msgid "封面文件格式"
+msgstr "封面文件格式"
+
+msgid "下载视频元数据"
+msgstr "下载视频元数据"
+
+msgid "元数据文件格式"
+msgstr "元数据文件格式"
+
+msgid "刮削设置"
+msgstr "刮削设置"
+
+msgid "自定义 ASS 样式"
+msgstr "自定义 ASS 样式"
+
+# -------------- src/gui/component/staticbox/font.py --------------
+msgid "字体"
+msgstr "字体"
+
+msgid "粗体"
+msgstr "粗体"
+
+msgid "斜体"
+msgstr "斜体"
+
+msgid "下划线"
+msgstr "下划线"
+
+msgid "删除线"
+msgstr "删除线"
+
+# -------------- src/gui/component/staticbox/misc_style.py --------------
+msgid "水平缩放"
+msgstr "水平缩放"
+
+msgid "水平缩放百分比"
+msgstr "水平缩放百分比"
+
+msgid "垂直缩放"
+msgstr "垂直缩放"
+
+msgid "垂直缩放百分比"
+msgstr "垂直缩放百分比"
+
+msgid "旋转角度"
+msgstr "旋转角度"
+
+msgid "字符间距"
+msgstr "字符间距"
+
+# -------------- src/gui/component/tree_list_v2.py --------------
+msgid "序号"
+msgstr "序号"
+
+msgid "标题"
+msgstr "标题"
+
+msgid "备注"
+msgstr "备注"
+
+msgid "时长"
+msgstr "时长"
+
+# -------------- src/gui/dialog/confirm/duplicate.py --------------
+msgid "确认重复下载"
+msgstr "确认重复下载"
+
+msgid "以下项目已在下载列表中，是否仍要继续下载？"
+msgstr "以下项目已在下载列表中，是否仍要继续下载？"
+
+msgid "请选择处理方式："
+msgstr "请选择处理方式："
+
+msgid "跳过已存在文件"
+msgstr "跳过已存在文件"
+
+msgid "根据设置处理"
+msgstr "根据设置处理"
+
+msgid "列表序号"
+msgstr "列表序号"
+
+msgid "下载类型"
+msgstr "下载类型"
+
+# -------------- src/gui/dialog/confirm/duplicate.py --------------
+msgid "确认视频分辨率"
+msgstr "确认视频分辨率"
+
+msgid ""
+"单独下载 .ass 格式弹幕或字幕时，请手动确认视频分辨率。\n"
+"若分辨率设置与实际视频不符，可能导致文字位置偏移或显示大小异常。"
+msgstr ""
+"单独下载 .ass 格式弹幕或字幕时，请手动确认视频分辨率。\n"
+"若分辨率设置与实际视频不符，可能导致文字位置偏移或显示大小异常。"
+
+msgid "视频分辨率（长度 x 宽度）："
+msgstr "视频分辨率（长度 x 宽度）："
+
+msgid "记住设置，在关闭程序前不再提示"
+msgstr "记住设置，在关闭程序前不再提示"
+
+# -------------- src/gui/dialog/download_option/download_option_dialog.py --------------
+msgid "下载选项"
+msgstr "下载选项"
+
+msgid ""
+"保存设置失败\n"
+"\n"
+"下载目录不能为空"
+msgstr ""
+"保存设置失败\n"
+"\n"
+"下载目录不能为空"
+
+msgid ""
+"账号未登录\n"
+"\n"
+"账号未登录，无法下载 480P 以上清晰度视频，是否继续下载？"
+msgstr ""
+"账号未登录\n"
+"\n"
+"账号未登录，无法下载 480P 以上清晰度视频，是否继续下载？"
+
+# -------------- src/gui/dialog/download_option/media_info.py --------------
+msgid "优先级"
+msgstr "优先级"
+
+msgid "正在检测..."
+msgstr "正在检测..."
+
+msgid "媒体信息"
+msgstr "媒体信息"
+
+msgid "当前视频类型："
+msgstr "当前视频类型："
+
+msgid ""
+"视频格式说明：\n"
+"\n"
+"DASH：视频与音频分开存储，需要合并为一个文件\n"
+"FLV：视频与音频已合并，因此无需选择音质\n"
+"MP4：同 FLV 格式"
+msgstr ""
+"视频格式说明：\n"
+"\n"
+"DASH：视频与音频分开存储，需要合并为一个文件\n"
+"FLV：视频与音频已合并，因此无需选择音质\n"
+"MP4：同 FLV 格式"
+
+msgid "查看帮助"
+msgstr "查看帮助"
+
+msgid ""
+"此处显示的媒体信息为解析链接对应的单个视频\n"
+"\n"
+"若存在多个视频媒体信息不一致的情况，可能会不准确"
+msgstr ""
+"此处显示的媒体信息为解析链接对应的单个视频\n"
+"\n"
+"若存在多个视频媒体信息不一致的情况，可能会不准确"
+
+msgid "当前视频无音轨，将使用优先级设置作为全局设置"
+msgstr "当前视频无音轨，将使用优先级设置作为全局设置"
+
+msgid "FLV 格式视频流中已包含音轨，不支持自定义"
+msgstr "FLV 格式视频流中已包含音轨，不支持自定义"
+
+msgid "MP4 格式视频流中已包含音轨，不支持自定义"
+msgstr "MP4 格式视频流中已包含音轨，不支持自定义"
+
+msgid ""
+"此处显示的媒体信息为解析链接对应的单个视频，若存在多个视频媒体信息不一致的情况，可能会不准确。\n"
+"\n"
+"当前显示的媒体信息所对应的视频：%s\n"
+"\n"
+"若需要切换预览其他视频，请右键点击剧集列表项目，刷新媒体信息。"
+msgstr ""
+"此处显示的媒体信息为解析链接对应的单个视频，若存在多个视频媒体信息不一致的情况，可能会不准确。\n"
+"\n"
+"当前显示的媒体信息所对应的视频：%s\n"
+"\n"
+"若需要切换预览其他视频，请右键点击剧集列表项目，刷新媒体信息。"
+
+msgid "获取媒体信息失败"
+msgstr "获取媒体信息失败"
+
+msgid "根据优先级设置自动选择画质"
+msgstr "根据优先级设置自动选择画质"
+
+msgid "根据优先级设置自动选择音质"
+msgstr "根据优先级设置自动选择音质"
+
+msgid "根据优先级设置自动选择编码"
+msgstr "根据优先级设置自动选择编码"
+
+# -------------- src/gui/dialog/download_option/media_option.py --------------
+msgid "媒体下载选项"
+msgstr "媒体下载选项"
+
+msgid "视频流"
+msgstr "视频流"
+
+msgid ""
+"下载独立的视频流文件\n"
+"\n"
+"视频和音频分开存储，需要合并为一个完整的视频文件"
+msgstr ""
+"下载独立的视频流文件\n"
+"\n"
+"视频和音频分开存储，需要合并为一个完整的视频文件"
+
+msgid "音频流"
+msgstr "音频流"
+
+msgid "下载独立的音频流文件"
+msgstr "下载独立的音频流文件"
+
+msgid "合并视频和音频"
+msgstr "合并视频和音频"
+
+msgid "选中后，在下载完成时，程序会自动将独立的视频和音频文件合并为一个完整的视频文件"
+msgstr "选中后，在下载完成时，程序会自动将独立的视频和音频文件合并为一个完整的视频文件"
+
+msgid "合并完成后，保留原始的视频和音频文件"
+msgstr "合并完成后，保留原始的视频和音频文件"
+
+# -------------- src/gui/dialog/download_option/other.py --------------
+msgid "其他选项"
+msgstr "其他选项"
+
+msgid "下载时自动弹出此对话框"
+msgstr "下载时自动弹出此对话框"
+
+msgid "自动跳转下载窗口"
+msgstr "自动跳转下载窗口"
+
+msgid "此处添加的序号与文件名模板中的序号相互独立，仅用于快捷控制是否添加序号，如果文件名模板中添加了序号字段，则不受此选项影响"
+msgstr "此处添加的序号与文件名模板中的序号相互独立，仅用于快捷控制是否添加序号，如果文件名模板中添加了序号字段，则不受此选项影响"
+
+msgid ""
+"总是从 1 开始：每次下载时，序号都从 1 开始递增\n"
+"连贯递增：每次下载时，序号都连贯递增，退出程序后重置\n"
+"使用剧集列表序号：使用在剧集列表中显示的序号"
+msgstr ""
+"总是从 1 开始：每次下载时，序号都从 1 开始递增\n"
+"连贯递增：每次下载时，序号都连贯递增，退出程序后重置\n"
+"使用剧集列表序号：使用在剧集列表中显示的序号"
+
+# -------------- src/gui/dialog/download_option/path.py --------------
+msgid "下载目录设置"
+msgstr "下载目录设置"
+
+msgid "磁盘可用空间：计算中..."
+msgstr "磁盘可用空间：计算中..."
+
+msgid "磁盘可用空间：%s"
+msgstr "磁盘可用空间：%s"
+
+msgid "当前下载目录磁盘空间不足 5 GB，可能会导致下载失败，请腾出足够的磁盘空间。"
+msgstr "当前下载目录磁盘空间不足 5 GB，可能会导致下载失败，请腾出足够的磁盘空间。"
+
+# -------------- src/gui/dialog/guide/agree_page.py --------------
+msgid "已知晓"
+msgstr "已知晓"
+
+msgid "不理解"
+msgstr "不理解"
+
+# -------------- src/gui/dialog/guide/guide.py --------------
+msgid "下一步"
+msgstr "下一步"
+
+msgid "使用向导"
+msgstr "使用向导"
+
+# -------------- src/gui/dialog/guide/page_1.py --------------
+msgid "欢迎使用 Bili23 Downloader"
+msgstr "欢迎使用 Bili23 Downloader"
+
+# -------------- src/gui/dialog/guide/page_2.py --------------
+msgid "使用须知"
+msgstr "使用须知"
+
+# -------------- src/gui/dialog/guide/page_4.py --------------
+msgid "自动监听剪切板，检测到复制视频链接时自动解析"
+msgstr "自动监听剪切板，检测到复制视频链接时自动解析"
+
+msgid "自动切换音视频流 CDN (国内用户建议开启)"
+msgstr "自动切换音视频流 CDN (国内用户建议开启)"
+
+msgid "相关链接"
+msgstr "相关链接"
+
+msgid "说明文档"
+msgstr "说明文档"
+
+msgid "完成"
+msgstr "完成"
+
+# -------------- src/gui/dialog/login/captcha.py --------------
+msgid "请完成验证"
+msgstr "请完成验证"
+
+# -------------- src/gui/dialog/login/login_v2.py --------------
+msgid "扫描二维码登录"
+msgstr "扫描二维码登录"
+
+msgid "请使用哔哩哔哩客户端扫码登录"
+msgstr "请使用哔哩哔哩客户端扫码登录"
+
+msgid "正在加载"
+msgstr "正在加载"
+
+msgid "登录成功"
+msgstr "登录成功"
+
+msgid "请在设备侧确认登录"
+msgstr "请在设备侧确认登录"
+
+msgid "二维码已过期"
+msgstr "二维码已过期"
+
+msgid "点击重新加载"
+msgstr "点击重新加载"
+
+msgid "短信登录"
+msgstr "短信登录"
+
+msgid "区号"
+msgstr "区号"
+
+msgid "手机号"
+msgstr "手机号"
+
+msgid "请输入手机号"
+msgstr "请输入手机号"
+
+msgid "获取验证码"
+msgstr "获取验证码"
+
+msgid "验证码"
+msgstr "验证码"
+
+msgid "请输入验证码"
+msgstr "请输入验证码"
+
+msgid "登录"
+msgstr "登录"
+
+msgid ""
+"发送验证码失败\n"
+"\n"
+"手机号不能为空"
+msgstr ""
+"发送验证码失败\n"
+"\n"
+"手机号不能为空"
+
+msgid "重新发送"
+msgstr "重新发送"
+
+msgid "重新发送(%s)"
+msgstr "重新发送(%s)"
+
+msgid ""
+"登录失败\n"
+"\n"
+"验证码不能为空"
+msgstr ""
+"登录失败\n"
+"\n"
+"验证码不能为空"
+
+msgid "重要提示：请先在 B 站网页端完成一次登录操作，再继续使用本程序"
+msgstr "重要提示：请先在 B 站网页端完成一次登录操作，再继续使用本程序"
+
+msgid ""
+"登录成功\n"
+"\n"
+"账号登录成功，建议重启程序刷新登录信息。"
+msgstr ""
+"登录成功\n"
+"\n"
+"账号登录成功，建议重启程序刷新登录信息。"
+
+msgid "登录失败"
+msgstr "登录失败"
+
+# -------------- src/gui/dialog/misc/about.py --------------
+msgid "关于 %s"
+msgstr "关于 %s"
+
+msgid "版本 %s"
+msgstr "版本 %s"
+
+msgid "本程序为免费开源软件，遵循 MIT 许可证发布"
+msgstr "本程序为免费开源软件，遵循 MIT 许可证发布"
+
+msgid "官方网站"
+msgstr "官方网站"
+
+msgid "开源地址"
+msgstr "开源地址"
+
+msgid "开源许可"
+msgstr "开源许可"
+
+msgid "免责声明"
+msgstr "免责声明"
+
+msgid "跨平台的 B 站视频下载工具"
+msgstr "跨平台的 B 站视频下载工具"
+
+# -------------- src/gui/dialog/misc/changelog.py --------------
+msgid "当前版本更新日志"
+msgstr "当前版本更新日志"
+
+# -------------- src/gui/dialog/misc/processing.py --------------
+msgid "解析中"
+msgstr "解析中"
+
+msgid "正在解析中，请稍候"
+msgstr "正在解析中，请稍候"
+
+msgid "节点：--"
+msgstr "节点：--"
+
+msgid "处理中"
+msgstr "处理中"
+
+msgid "正在处理中，请稍候"
+msgstr "正在处理中，请稍候"
+
+msgid "互动视频"
+msgstr "互动视频"
+
+msgid "正在探查所有节点，请稍候"
+msgstr "正在探查所有节点，请稍候"
+
+msgid "正在获取所有分页数据，请稍候"
+msgstr "正在获取所有分页数据，请稍候"
+
+# -------------- src/gui/dialog/setting/ass_style/custom_ass_style_v2.py --------------
+msgid "弹幕"
+msgstr "弹幕"
+
+msgid "字幕"
+msgstr "字幕"
+
+# -------------- src/gui/dialog/setting/ass_style/danmaku.py --------------
+msgid "高级设置"
+msgstr "高级设置"
+
+msgid "防遮挡字幕"
+msgstr "防遮挡字幕"
+
+msgid "视频底部15%部分为空白保留区"
+msgstr "视频底部15%部分为空白保留区"
+
+# -------------- src/gui/dialog/setting/ass_style/subtitle.py --------------
+msgid "颜色"
+msgstr "颜色"
+
+msgid "主要颜色"
+msgstr "主要颜色"
+
+msgid "次要颜色"
+msgstr "次要颜色"
+
+msgid "边框颜色"
+msgstr "边框颜色"
+
+msgid "阴影颜色"
+msgstr "阴影颜色"
+
+msgid "边距"
+msgstr "边距"
+
+msgid "左边距"
+msgstr "左边距"
+
+msgid "与画面左边界的距离"
+msgstr "与画面左边界的距离"
+
+msgid "右边距"
+msgstr "右边距"
+
+msgid "与画面右边界的距离"
+msgstr "与画面右边界的距离"
+
+msgid "垂直边距"
+msgstr "垂直边距"
+
+msgid "与画面上/下边界的距离"
+msgstr "与画面上/下边界的距离"
+
+msgid "对齐方式"
+msgstr "对齐方式"
+
+msgid "字幕在画面中位置的对齐方式，按照小键盘区布局"
+msgstr "字幕在画面中位置的对齐方式，按照小键盘区布局"
+
+# -------------- src/gui/dialog/setting/file_name/custom_file_name_v3.py --------------
+msgid "文件名模板（双击列表项目修改）"
+msgstr "文件名模板（双击列表项目修改）"
+
+msgid "建议详细阅读说明文档，再进行设置"
+msgstr "建议详细阅读说明文档，再进行设置"
+
+msgid "下载剧集时，使用严格刮削命名模板"
+msgstr "下载剧集时，使用严格刮削命名模板"
+
+msgid ""
+"启用后，在下载剧集时，将会自动识别季数，并添加 SxxExx 标识。\n"
+"配合'下载视频元数据'选项，可同时刮削剧集信息，便于 Kodi、Plex 等媒体库软件的识别。"
+msgstr ""
+"启用后，在下载剧集时，将会自动识别季数，并添加 SxxExx 标识。\n"
+"配合'下载视频元数据'选项，可同时刮削剧集信息，便于 Kodi、Plex 等媒体库软件的识别。"
+
+msgid "类别"
+msgstr "类别"
+
+msgid "子类别"
+msgstr "子类别"
+
+msgid "文件名模板"
+msgstr "文件名模板"
+
+# -------------- src/gui/dialog/setting/file_name/edit_template.py --------------
+msgid "不能包含 <>:\"\\|?* 之中任何字符"
+msgstr "不能包含 <>:\"\\|?* 之中任何字符"
+
+msgid "文件夹名称模板"
+msgstr "文件夹名称模板"
+
+msgid "文件夹名称："
+msgstr "文件夹名称："
+
+# -------------- src/gui/dialog/setting/file_name/edit_template.py --------------
+msgid "模板名不能为空"
+msgstr "模板名不能为空"
+
+msgid "路径分隔符不正确，请使用正斜杠 /"
+msgstr "路径分隔符不正确，请使用正斜杠 /"
+
+msgid "不能以 / 开头"
+msgstr "不能以 / 开头"
+
+msgid "不能包含 <>:\"|?* 之中任何字符"
+msgstr "不能包含 <>:\"|?* 之中任何字符"
+
+msgid "字段名必须以 {} 包裹"
+msgstr "字段名必须以 {} 包裹"
+
+msgid "时间格式无效"
+msgstr "时间格式无效"
+
+msgid "未知字段 %s"
+msgstr "未知字段 %s"
+
+msgid "字段名不能为空"
+msgstr "字段名不能为空"
+
+msgid "编辑模板"
+msgstr "编辑模板"
+
+msgid "有关文件名模板的详细设置，请参考说明文档。"
+msgstr "有关文件名模板的详细设置，请参考说明文档。"
+
+msgid "剧集类支持设置正片和非正片两种不同的命名模板，其他类型仅支持默认模板。"
+msgstr "剧集类支持设置正片和非正片两种不同的命名模板，其他类型仅支持默认模板。"
+
+msgid "预览"
+msgstr "预览"
+
+msgid "子目录："
+msgstr "子目录："
+
+msgid "文件名："
+msgstr "文件名："
+
+msgid "可用字段列表（双击列表项目可添加字段）"
+msgstr "可用字段列表（双击列表项目可添加字段）"
+
+msgid ""
+"同一字段可重复添加多次，且可同时用于子目录和文件名部分。\n"
+"\n"
+"对于时间字段的格式设置，请参考说明文档。"
+msgstr ""
+"同一字段可重复添加多次，且可同时用于子目录和文件名部分。\n"
+"\n"
+"对于时间字段的格式设置，请参考说明文档。"
+
+msgid "示例视频："
+msgstr "示例视频："
+
+msgid "字段名称"
+msgstr "字段名称"
+
+msgid "说明"
+msgstr "说明"
+
+msgid "示例"
+msgstr "示例"
+
+msgid "模板格式错误"
+msgstr "模板格式错误"
+
+# -------------- src/gui/dialog/setting/priority/edit.py --------------
+msgid "%s优先级设置"
+msgstr "%s优先级设置"
+
+msgid "优先级列表"
+msgstr "优先级列表"
+
+msgid "列表按优先级从高到低排列（顶部为最高优先级）。程序将优先下载最高可用%s；若不可用，则自动尝试列表中下一个优先级%s，直到找到可用的%s为止。"
+msgstr "列表按优先级从高到低排列（顶部为最高优先级）。程序将优先下载最高可用%s；若不可用，则自动尝试列表中下一个优先级%s，直到找到可用的%s为止。"
+
+msgid "移至顶部"
+msgstr "移至顶部"
+
+msgid "上移"
+msgstr "上移"
+
+msgid "下移"
+msgstr "下移"
+
+msgid "移至底部"
+msgstr "移至底部"
+
+msgid "重置"
+msgstr "重置"
+
+msgid ""
+"重置优先级\n"
+"\n"
+"确定要重置优先级设置吗？"
+msgstr ""
+"重置优先级\n"
+"\n"
+"确定要重置优先级设置吗？"
+
+msgid ""
+"未选择项目\n"
+"\n"
+"请选择要调整的项目"
+msgstr ""
+"未选择项目\n"
+"\n"
+"请选择要调整的项目"
+
+# -------------- src/gui/dialog/setting/priority/scrape_option/add_date_box.py --------------
+msgid "将 <添加日期> 添加到 NFO"
+msgstr "将 <添加日期> 添加到 NFO"
+
+msgid "<添加日期> 来源"
+msgstr "<添加日期> 来源"
+
+# -------------- src/gui/dialog/setting/priority/scrape_option/episode.py --------------
+msgid "创建 NFO 文件"
+msgstr "创建 NFO 文件"
+
+msgid "季"
+msgstr "季"
+
+msgid "集"
+msgstr "集"
+
+msgid "<剧集文件名>.nfo"
+msgstr "<剧集文件名>.nfo"
+
+msgid ""
+"如果需要将剧集分季存放至不同文件夹\n"
+"请启用'严格刮削命名模板'选项"
+msgstr "如果需要将剧集分季存放至不同文件夹\n"
+"请启用'严格刮削命名模板'选项"
+
+# -------------- src/gui/dialog/setting/priority/scrape_option/lesson.py --------------
+msgid "课"
+msgstr "课"
+
+msgid "<视频文件名>.nfo"
+msgstr "<视频文件名>.nfo"
+
+# -------------- src/gui/dialog/setting/priority/scrape_option/movie.py --------------
+msgid "<电影文件名>.nfo"
+msgstr "<电影文件名>.nfo"
+
+# -------------- src/gui/dialog/setting/priority/scrape_option/scrape_option.py --------------
+msgid "刮削设置          "
+msgstr "刮削设置          "
+
+msgid "电影"
+msgstr "电影"
+
+# -------------- src/gui/dialog/setting/custom_cdn_host.py.py --------------
+msgid "CDN 节点列表"
+msgstr "CDN 节点列表"
+
+msgid "自定义"
+msgstr "自定义"
+
+msgid "添加"
+msgstr "添加"
+
+msgid "删除"
+msgstr "删除"
+
+msgid "Ping 测试"
+msgstr "Ping 测试"
+
+msgid "CDN 节点"
+msgstr "CDN 节点"
+
+msgid "延迟"
+msgstr "延迟"
+
+msgid "未检测"
+msgstr "未检测"
+
+msgid ""
+"保存失败\n"
+"\n"
+"至少需要添加一个 CDN 节点"
+msgstr ""
+"保存失败\n"
+"\n"
+"至少需要添加一个 CDN 节点"
+
+msgid ""
+"添加失败\n"
+"\n"
+"请输入要添加的 CDN 节点"
+msgstr ""
+"添加失败\n"
+"\n"
+"请输入要添加的 CDN 节点"
+
+msgid ""
+"添加失败\n"
+"\n"
+"无法重复添加已存在的项目"
+msgstr ""
+"添加失败\n"
+"\n"
+"无法重复添加已存在的项目"
+
+msgid ""
+"删除项目\n"
+"\n"
+"确定要删除选定的项目吗？"
+msgstr ""
+"删除项目\n"
+"\n"
+"确定要删除选定的项目吗？"
+
+# -------------- src/gui/dialog/setting/custom_subtitle_lan.py.py --------------
+msgid "字幕语言下载选项"
+msgstr "字幕语言下载选项"
+
+msgid "下载全部可用字幕"
+msgstr "下载全部可用字幕"
+
+msgid "手动选择"
+msgstr "手动选择"
+
+# -------------- src/gui/dialog/setting/custom_user_agent.py.py --------------
+msgid ""
+"User-Agent 无效\n"
+"\n"
+"User-Agent 不能为空"
+msgstr ""
+"User-Agent 无效\n"
+"\n"
+"User-Agent 不能为空"
+
+# -------------- src/gui/dialog/setting/edit_title.py --------------
+msgid "修改标题"
+msgstr "修改标题"
+
+msgid "新标题将作为 {title} 字段"
+msgstr "新标题将作为 {title} 字段"
+
+msgid "请输入新标题"
+msgstr "请输入新标题"
+
+# -------------- src/gui/dialog/setting/ffmpeg.py --------------
+msgid "请选择 FFmpeg 路径"
+msgstr "请选择 FFmpeg 路径"
+
+msgid "刷新"
+msgstr "刷新"
+
+msgid "环境变量"
+msgstr "环境变量"
+
+msgid "未检测到 FFmpeg"
+msgstr "未检测到 FFmpeg"
+
+msgid "运行目录"
+msgstr "运行目录"
+
+# -------------- src/gui/dialog/setting/select_batch.py --------------
+msgid "批量选取项目"
+msgstr "批量选取项目"
+
+msgid "序号区间"
+msgstr "序号区间"
+
+msgid "序号区间支持输入多个，以英文逗号分隔，如 1-3,5,7-10 表示选取第 1 至 3 项、第 5 项和第 7 至 10 项"
+msgstr "序号区间支持输入多个，以英文逗号分隔，如 1-3,5,7-10 表示选取第 1 至 3 项、第 5 项和第 7 至 10 项"
+
+msgid "请输入序号区间，以英文逗号分隔"
+msgstr "请输入序号区间，以英文逗号分隔"
+
+msgid "提示：按住 Shift 键也可批量选取项目"
+msgstr "提示：按住 Shift 键也可批量选取项目"
+
+msgid ""
+"选取剧集失败\n"
+"\n"
+"序号区间不能为空"
+msgstr ""
+"选取剧集失败\n"
+"\n"
+"序号区间不能为空"
+
+# -------------- src/gui/dialog/misc/update.py --------------
+msgid "发现新版本"
+msgstr "发现新版本"
+
+msgid "忽略此版本，下次不再提示"
+msgstr "忽略此版本，下次不再提示"
+
+msgid "更新"
+msgstr "更新"
+
+# -------------- src/gui/dialog/cover_viewer.py --------------
+msgid "视频封面"
+msgstr "视频封面"
+
+msgid "文件(&F)"
+msgstr "文件(&F)"
+
+msgid "选项(&O)"
+msgstr "选项(&O)"
+
+msgid "保存原图(&S)\tCtrl+S"
+msgstr "保存原图(&S)\tCtrl+S"
+
+msgid "关闭(&X)\tAlt+F4"
+msgstr "关闭(&X)\tAlt+F4"
+
+msgid "显示原图(&R)"
+msgstr "显示原图(&R)"
+
+msgid "窗口适应图片尺寸(&A)"
+msgstr "窗口适应图片尺寸(&A)"
+
+msgid "原图尺寸：%sx%s"
+msgstr "原图尺寸：%sx%s"
+
+msgid "保存封面"
+msgstr "保存封面"
+
+msgid "JPG 文件(*.jpg)|*.jpg|PNG 文件|*.png|WEBP 文件|*.webp|AVIF 文件|*.avif"
+msgstr "JPG 文件(*.jpg)|*.jpg|PNG 文件|*.png|WEBP 文件|*.webp|AVIF 文件|*.avif"
+
+msgid "缩放尺寸：%sx%s"
+msgstr "缩放尺寸：%sx%s"
+
+# -------------- src/gui/dialog/error.py --------------
+msgid "错误日志"
+msgstr "错误日志"
+
+msgid "记录时间：%s"
+msgstr "记录时间：%s"
+
+msgid "异常类型：%s"
+msgstr "异常类型：%s"
+
+msgid "错误码：%s"
+msgstr "错误码：%s"
+
+msgid "描述：%s"
+msgstr "描述：%s"
+
+# -------------- src/gui/dialog/history.py --------------
+msgid "历史记录"
+msgstr "历史记录"
+
+msgid "历史记录（双击列表项目开始解析）"
+msgstr "历史记录（双击列表项目开始解析）"
+
+msgid "时间"
+msgstr "时间"
+
+msgid "清除记录"
+msgstr "清除记录"
+
+# -------------- src/gui/dialog/search_episode_list.py --------------
+msgid "搜索"
+msgstr "搜索"
+
+msgid "在剧集列表中搜索"
+msgstr "在剧集列表中搜索"
+
+msgid "无结果"
+msgstr "无结果"
+
+msgid "上一匹配项"
+msgstr "上一匹配项"
+
+msgid "下一匹配项"
+msgstr "下一匹配项"
+
+msgid "仅显示匹配项"
+msgstr "仅显示匹配项"
+
+msgid "循环搜索"
+msgstr "循环搜索"
+
+msgid "全选"
+msgstr "全选"
+
+msgid "第 %s 项，共 %s 项"
+msgstr "第 %s 项，共 %s 项"
+
+# -------------- src/gui/window/download/download_v4.py --------------
+msgid "正在下载(%s)"
+msgstr "正在下载(%s)"
+
+msgid "下载完成(%s)"
+msgstr "下载完成(%s)"
+
+msgid "打开下载目录"
+msgstr "打开下载目录"
+
+msgid "%s个任务正在下载"
+msgstr "%s个任务正在下载"
+
+msgid "%s个任务下载完成"
+msgstr "%s个任务下载完成"
+
+msgid "下载完成"
+msgstr "下载完成"
+
+msgid "所有任务已下载完成"
+msgstr "所有任务已下载完成"
+
+# -------------- src/gui/window/download/item_panel_v4.py --------------
+msgid "查看封面"
+msgstr "查看封面"
+
+msgid "等待下载..."
+msgstr "等待下载..."
+
+msgid "取消下载"
+msgstr "取消下载"
+
+# -------------- src/gui/window/download/item_utils_v4.py --------------
+msgid "音频"
+msgstr "音频"
+
+msgid "未知"
+msgstr "未知"
+
+msgid "正在合并视频..."
+msgstr "正在合并视频..."
+
+msgid "正在转换音频..."
+msgstr "正在转换音频..."
+
+msgid "合并视频失败，点击查看详情"
+msgstr "合并视频失败，点击查看详情"
+
+msgid "转换音频失败，点击查看详情"
+msgstr "转换音频失败，点击查看详情"
+
+msgid "暂停下载"
+msgstr "暂停下载"
+
+msgid "正在获取下载链接..."
+msgstr "正在获取下载链接..."
+
+msgid "继续下载"
+msgstr "继续下载"
+
+msgid "暂停中..."
+msgstr "暂停中..."
+
+msgid "打开文件所在位置"
+msgstr "打开文件所在位置"
+
+msgid "下载失败，点击查看详情"
+msgstr "下载失败，点击查看详情"
+
+# -------------- src/gui/window/download/page.py --------------
+msgid "并行下载数"
+msgstr "并行下载数"
+
+msgid "全部开始"
+msgstr "全部开始"
+
+msgid "全部暂停"
+msgstr "全部暂停"
+
+msgid "全部取消"
+msgstr "全部取消"
+
+msgid "没有正在下载的项目"
+msgstr "没有正在下载的项目"
+
+msgid "清除下载记录"
+msgstr "清除下载记录"
+
+msgid "没有下载完成的项目"
+msgstr "没有下载完成的项目"
+
+# -------------- src/gui/window/main/bottom_box.py --------------
+msgid "未登录"
+msgstr "未登录"
+
+msgid "下载管理"
+msgstr "下载管理"
+
+msgid "开始下载"
+msgstr "开始下载"
+
+msgid "✔️已开始下载"
+msgstr "✔️已开始下载"
+
+# -------------- src/gui/window/main/main_v3.py --------------
+msgid "工具(&T)"
+msgstr "工具(&T)"
+
+msgid "注销(&L)"
+msgstr "注销(&L)"
+
+msgid "登录(&L)"
+msgstr "登录(&L)"
+
+msgid "调试(&D)"
+msgstr "调试(&D)"
+
+msgid "直播录制(&R)"
+msgstr "直播录制(&R)"
+
+msgid "视频工具箱(&F)"
+msgstr "视频工具箱(&F)"
+
+msgid "设置(&S)"
+msgstr "设置(&S)"
+
+msgid "历史(&S)"
+msgstr "历史(&S)"
+
+msgid "无记录"
+msgstr "无记录"
+
+msgid "更多..."
+msgstr "更多..."
+
+msgid "清除历史记录..."
+msgstr "清除历史记录..."
+
+msgid "帮助(&H)"
+msgstr "帮助(&H)"
+
+msgid "检查更新(&U)"
+msgstr "检查更新(&U)"
+
+msgid "更新日志(&P)"
+msgstr "更新日志(&P)"
+
+msgid "使用帮助(&C)"
+msgstr "使用帮助(&C)"
+
+msgid "报告问题(&B)"
+msgstr "报告问题(&B)"
+
+msgid "社区交流(&G)"
+msgstr "社区交流(&G)"
+
+msgid "关于(&A)"
+msgstr "关于(&A)"
+
+msgid ""
+"退出登录\n"
+"\n"
+"是否要退出登录？"
+msgstr ""
+"退出登录\n"
+"\n"
+"是否要退出登录？"
+
+msgid ""
+"退出程序\n"
+"\n"
+"确定要退出程序吗？"
+msgstr ""
+"退出程序\n"
+"\n"
+"确定要退出程序吗？"
+
+msgid "最小化到托盘"
+msgstr "最小化到托盘"
+
+msgid "退出程序"
+msgstr "退出程序"
+
+msgid ""
+"不可用\n"
+"\n"
+"当前不可用，请等待后续版本更新。"
+msgstr ""
+"不可用\n"
+"\n"
+"当前不可用，请等待后续版本更新。"
+
+# -------------- src/gui/window/main/parser.py --------------
+msgid "解析失败"
+msgstr "解析失败"
+
+# -------------- src/gui/window/main/top_box.py --------------
+msgid "链接"
+msgstr "链接"
+
+msgid "在此处粘贴链接进行解析"
+msgstr "在此处粘贴链接进行解析"
+
+msgid "(共 %s 项，已选择 %s 项)"
+msgstr "(共 %s 项，已选择 %s 项)"
+
+msgid "(共 %s 项)"
+msgstr "(共 %s 项)"
+
+msgid "剧情树"
+msgstr "剧情树"
+
+msgid "查看互动视频剧情树"
+msgstr "查看互动视频剧情树"
+
+msgid "搜索剧集列表"
+msgstr "搜索剧集列表"
+
+msgid ""
+"解析失败\n"
+"\n"
+"链接不能为空"
+msgstr ""
+"解析失败\n"
+"\n"
+"链接不能为空"
+
+# -------------- src/gui/window/main/utils.py --------------
+msgid "检查更新失败"
+msgstr "检查更新失败"
+
+msgid "当前无法检查更新，请稍候再试。"
+msgstr "当前无法检查更新，请稍候再试。"
+
+msgid "当前没有可用的更新。"
+msgstr "当前没有可用的更新。"
+
+msgid "检查更新"
+msgstr "检查更新"
+
+msgid "获取更新日志失败"
+msgstr "获取更新日志失败"
+
+msgid "当前无法获取更新日志，请稍候再试。"
+msgstr "当前无法获取更新日志，请稍候再试。"
+
+msgid "注销登录失败"
+msgstr "注销登录失败"
+
+msgid "无法完成注销登录操作"
+msgstr "无法完成注销登录操作"
+
+msgid "刷新登录信息失败"
+msgstr "刷新登录信息失败"
+
+msgid "无法刷新登录信息"
+msgstr "无法刷新登录信息"
+
+msgid ""
+"未检测到 FFmpeg\n"
+"\n"
+"未检测到 FFmpeg，无法进行视频合并、截取和转换。\n"
+"\n"
+"请检查是否为 FFmpeg 创建环境变量或 FFmpeg 是否已在运行目录中。"
+msgstr ""
+"未检测到 FFmpeg\n"
+"\n"
+"未检测到 FFmpeg，无法进行视频合并、截取和转换。\n"
+"\n"
+"请检查是否为 FFmpeg 创建环境变量或 FFmpeg 是否已在运行目录中。"
+
+msgid "安装 FFmpeg"
+msgstr "安装 FFmpeg"
+
+msgid "正在解析中"
+msgstr "正在解析中"
+
+# -------------- src/gui/window/settings/advanced.py --------------
+msgid "CDN 节点设置"
+msgstr "CDN 节点设置"
+
+msgid "替换音视频流 CDN 节点"
+msgstr "替换音视频流 CDN 节点"
+
+msgid ""
+"由于B站默认分配的 CDN 线路可能存在稳定性问题，导致音视频流下载失败，建议开启'替换音视频流 CDN 节点'功能。该功能会根据您设置的优先级顺序，自动选择可用的 CDN 节点，以提升访问速度和成功率。\n"
+"\n"
+"请注意：开启代理工具时，请务必关闭此功能，避免 CDN 节点与代理线路冲突导致连接失败。"
+msgstr ""
+"由于B站默认分配的 CDN 线路可能存在稳定性问题，导致音视频流下载失败，建议开启'替换音视频流 CDN 节点'功能。该功能会根据您设置的优先级顺序，自动选择可用的 CDN 节点，以提升访问速度和成功率。\n"
+"\n"
+"请注意：开启代理工具时，请务必关闭此功能，避免 CDN 节点与代理线路冲突导致连接失败。"
+
+msgid "自定义 CDN 节点"
+msgstr "自定义 CDN 节点"
+
+msgid "高级下载设置"
+msgstr "高级下载设置"
+
+msgid "下载出错时自动重试"
+msgstr "下载出错时自动重试"
+
+msgid "重试次数"
+msgstr "重试次数"
+
+msgid "次"
+msgstr "次"
+
+msgid "下载停滞时自动重启下载"
+msgstr "下载停滞时自动重启下载"
+
+msgid "重启间隔"
+msgstr "重启间隔"
+
+msgid "秒"
+msgstr "秒"
+
+msgid "始终使用 HTTPS 发起请求"
+msgstr "始终使用 HTTPS 发起请求"
+
+msgid "启用 SSL 证书验证"
+msgstr "启用 SSL 证书验证"
+
+msgid "自定义 User-Agent"
+msgstr "自定义 User-Agent"
+
+msgid "Web 页面显示设置"
+msgstr "Web 页面显示设置"
+
+msgid "显示方式"
+msgstr "显示方式"
+
+msgid ""
+"设置 Web 页面的显示方式\n"
+"\n"
+"自动检测：自动选择可用的显示方式\n"
+"使用系统 Webview 组件：在窗口中内嵌显示页面\n"
+"使用系统默认浏览器：在外部浏览器中显示页面"
+msgstr ""
+"设置 Web 页面的显示方式\n"
+"\n"
+"自动检测：自动选择可用的显示方式\n"
+"使用系统 Webview 组件：在窗口中内嵌显示页面\n"
+"使用系统默认浏览器：在外部浏览器中显示页面"
+
+msgid "Websocket 端口"
+msgstr "Websocket 端口"
+
+msgid "Websocket 端口无效：%s"
+msgstr "Websocket 端口无效：%s"
+
+# -------------- src/gui/window/settings/basic.py --------------
+msgid "基本设置"
+msgstr "基本设置"
+
+msgid "语言"
+msgstr "语言"
+
+msgid "更改语言后需要重启软件才能生效"
+msgstr "更改语言后需要重启软件才能生效"
+
+msgid "自动监听剪切板"
+msgstr "自动监听剪切板"
+
+msgid "启用历史记录功能"
+msgstr "启用历史记录功能"
+
+msgid "当关闭窗口时"
+msgstr "当关闭窗口时"
+
+msgid "下载前自动弹出下载选项对话框"
+msgstr "下载前自动弹出下载选项对话框"
+
+msgid "下载时自动切换到下载窗口"
+msgstr "下载时自动切换到下载窗口"
+
+msgid "记住窗口的大小和位置"
+msgstr "记住窗口的大小和位置"
+
+msgid "窗口总在最前"
+msgstr "窗口总在最前"
+
+# -------------- src/gui/window/settings/download.py --------------
+msgid "设置优先级"
+msgstr "设置优先级"
+
+msgid "下载设置"
+msgstr "下载设置"
+
+msgid "下载目录"
+msgstr "下载目录"
+
+msgid "浏览"
+msgstr "浏览"
+
+msgid "自定义下载文件名"
+msgstr "自定义下载文件名"
+
+msgid "画质优先级"
+msgstr "画质优先级"
+
+msgid "画质"
+msgstr "画质"
+
+msgid "音质优先级"
+msgstr "音质优先级"
+
+msgid "音质"
+msgstr "音质"
+
+msgid "编码优先级"
+msgstr "编码优先级"
+
+msgid "编码"
+msgstr "编码"
+
+msgid "对单个下载任务进行限速"
+msgstr "对单个下载任务进行限速"
+
+msgid "最高"
+msgstr "最高"
+
+msgid "在文件名前添加独立序号"
+msgstr "在文件名前添加独立序号"
+
+msgid "序号类型"
+msgstr "序号类型"
+
+msgid "下载完成后清除本地下载记录"
+msgstr "下载完成后清除本地下载记录"
+
+msgid "允许弹出通知提示"
+msgstr "允许弹出通知提示"
+
+msgid "测试"
+msgstr "测试"
+
+msgid "选择下载目录"
+msgstr "选择下载目录"
+
+msgid "测试通知"
+msgstr "测试通知"
+
+msgid "这是一则测试通知"
+msgstr "这是一则测试通知"
+
+# -------------- src/gui/window/settings/ffmpeg.py --------------
+msgid "FFmpeg 设置"
+msgstr "FFmpeg 设置"
+
+msgid "FFmpeg 路径"
+msgstr "FFmpeg 路径"
+
+msgid "自动检测"
+msgstr "自动检测"
+
+msgid "安装教程"
+msgstr "安装教程"
+
+msgid "启动时自动检查 FFmpeg 可用性"
+msgstr "启动时自动检查 FFmpeg 可用性"
+
+msgid "音视频合并选项"
+msgstr "音视频合并选项"
+
+msgid "合并完成后保留原始文件"
+msgstr "合并完成后保留原始文件"
+
+msgid "存在同名文件时"
+msgstr "存在同名文件时"
+
+msgid "仅下载音频时，将 m4a 音频转换为 mp3 格式"
+msgstr "仅下载音频时，将 m4a 音频转换为 mp3 格式"
+
+msgid "FFmpeg 路径无效"
+msgstr "FFmpeg 路径无效"
+
+msgid "选择 FFmpeg 路径"
+msgstr "选择 FFmpeg 路径"
+
+# -------------- src/gui/window/settings/misc.py --------------
+msgid "显示全部相关视频 (包括 PV、OP、ED 等)"
+msgstr "显示全部相关视频 (包括 PV、OP、ED 等)"
+
+msgid "自动勾选全部视频"
+msgstr "自动勾选全部视频"
+
+msgid "杂项"
+msgstr "杂项"
+
+msgid "在主界面显示用户头像和昵称"
+msgstr "在主界面显示用户头像和昵称"
+
+msgid "启用调试模式"
+msgstr "启用调试模式"
+
+msgid "清除用户数据"
+msgstr "清除用户数据"
+
+msgid "恢复默认设置"
+msgstr "恢复默认设置"
+
+msgid "打开配置文件夹"
+msgstr "打开配置文件夹"
+
+msgid ""
+"清除用户数据\n"
+"\n"
+"将清除用户登录信息、下载记录和程序设置，是否继续？\n"
+"\n"
+"程序将会重新启动。"
+msgstr ""
+"清除用户数据\n"
+"\n"
+"将清除用户登录信息、下载记录和程序设置，是否继续？\n"
+"\n"
+"程序将会重新启动。"
+
+msgid ""
+"恢复默认设置\n"
+"\n"
+"是否恢复默认设置？\n"
+"\n"
+"程序将会重新启动。"
+msgstr ""
+"恢复默认设置\n"
+"\n"
+"是否恢复默认设置？\n"
+"\n"
+"程序将会重新启动。"
+
+# -------------- src/gui/window/settings/page.py --------------
+msgid ""
+"保存设置失败\n"
+"\n"
+"所在页面：%s\n"
+"错误原因：%s"
+msgstr ""
+"保存设置失败\n"
+"\n"
+"所在页面：%s\n"
+"错误原因：%s"
+
+# -------------- src/gui/window/settings/proxy.py --------------
+msgid "代理设置"
+msgstr "代理设置"
+
+msgid "代理选项"
+msgstr "代理选项"
+
+msgid ""
+"注意：使用代理时，请在高级选项卡中\n"
+"手动关闭'替换音视频流 CDN 选项'"
+msgstr ""
+"注意：使用代理时，请在高级选项卡中\n"
+"手动关闭'替换音视频流 CDN 选项'"
+
+msgid "不使用代理"
+msgstr "不使用代理"
+
+msgid "跟随系统"
+msgstr "跟随系统"
+
+msgid "手动设置"
+msgstr "手动设置"
+
+msgid "地址"
+msgstr "地址"
+
+msgid "端口"
+msgstr "端口"
+
+msgid "启用代理身份验证"
+msgstr "启用代理身份验证"
+
+msgid "用户名"
+msgstr "用户名"
+
+msgid "密码"
+msgstr "密码"
+
+msgid "端口无效，请输入 1 到 65535 之间的整数"
+msgstr "端口无效，请输入 1 到 65535 之间的整数"
+
+msgid ""
+"测试成功\n"
+"\n"
+"请求站点：%s\n"
+"状态码：%s\n"
+"耗时：%ss"
+msgstr ""
+"测试成功\n"
+"\n"
+"请求站点：%s\n"
+"状态码：%s\n"
+"耗时：%ss"
+
+msgid ""
+"测试失败\n"
+"\n"
+"请求站点：%s\n"
+"错误信息：%s"
+msgstr ""
+"测试失败\n"
+"\n"
+"请求站点：%s\n"
+"错误信息：%s"
+
+# -------------- src/gui/window/settings/settings_v2.py --------------
+msgid "设置"
+msgstr "设置"
+
+msgid "基本"
+msgstr "基本"
+
+msgid "下载"
+msgstr "下载"
+
+msgid "高级"
+msgstr "高级"
+
+msgid "代理"
+msgstr "代理"
+
+msgid "其他"
+msgstr "其他"
+
+msgid "保存失败"
+msgstr "保存失败"
+
+# -------------- src/utils/common/data/danmaku_ass_style.py --------------
+msgid "显示区域"
+msgstr "显示区域"
+
+msgid "不透明度"
+msgstr "不透明度"
+
+msgid "弹幕速度"
+msgstr "弹幕速度"
+
+msgid "极慢"
+msgstr "极慢"
+
+msgid "较慢"
+msgstr "较慢"
+
+msgid "适中"
+msgstr "适中"
+
+msgid "较快"
+msgstr "较快"
+
+msgid "极快"
+msgstr "极快"
+
+msgid "弹幕密度"
+msgstr "弹幕密度"
+
+msgid "正常"
+msgstr "正常"
+
+msgid "较多"
+msgstr "较多"
+
+msgid "重叠"
+msgstr "重叠"
+
+# -------------- src/utils/common/data/file_name.py --------------
+msgid "投稿视频"
+msgstr "投稿视频"
+
+msgid "普通"
+msgstr "普通"
+
+msgid "分P"
+msgstr "分P"
+
+msgid "合集"
+msgstr "合集"
+
+msgid "剧集"
+msgstr "剧集"
+
+msgid "默认命名"
+msgstr "默认命名"
+
+msgid "严格刮削命名"
+msgstr "严格刮削命名"
+
+msgid "课程"
+msgstr "课程"
+
+msgid "个人主页"
+msgstr "个人主页"
+
+msgid "文件夹名称"
+msgstr "文件夹名称"
+
+msgid "收藏夹"
+msgstr "收藏夹"
+
+# -------------- src/utils/common/data/guide.py --------------
+msgid ""
+"开始使用前，请先完成以下简短的引导。\n"
+"\n"
+"点击“下一步”按钮继续。\n"
+"\n"
+msgstr ""
+"开始使用前，请先完成以下简短的引导。\n"
+"\n"
+"点击“下一步”按钮继续。\n"
+"\n"
+
+msgid ""
+"1.本项目不提供破解大会员专享视频、付费视频、充电视频等功能，如有相关需求，请开通B站大会员服务、购买付费内容、向UP主充电解锁。\n"
+"\n"
+"2.用户能否下载上述内容，取决于所登录账号的会员状态和相应权限，也就是说能账号看什么就能下载什么。\n"
+"\n"
+"3.如果视频本身就有水印，那么下载下来就会带水印，与B站客户端看到的效果一致。除非在上传视频时不带水印，否则无法下载无水印的视频。\n"
+"\n"
+"特此说明，请勿再次咨询以上相关问题。\n"
+"\n"
+msgstr ""
+"1.本项目不提供破解大会员专享视频、付费视频、充电视频等功能，如有相关需求，请开通B站大会员服务、购买付费内容、向UP主充电解锁。\n"
+"\n"
+"2.用户能否下载上述内容，取决于所登录账号的会员状态和相应权限，也就是说能账号看什么就能下载什么。\n"
+"\n"
+"3.如果视频本身就有水印，那么下载下来就会带水印，与B站客户端看到的效果一致。除非在上传视频时不带水印，否则无法下载无水印的视频。\n"
+"\n"
+"特此说明，请勿再次咨询以上相关问题。\n"
+"\n"
+
+msgid ""
+"本项目仅供个人学习与研究用途，任何通过本项目下载的内容仅限于个人使用，不得用于任何形式的商业目的、公开传播或分发。\n"
+"\n"
+"用户需自行承担使用本项目可能带来的所有风险，项目开发者不对因使用本项目所引发的任何法律纠纷、版权问题或其他损害承担责任。\n"
+"\n"
+msgstr ""
+"本项目仅供个人学习与研究用途，任何通过本项目下载的内容仅限于个人使用，不得用于任何形式的商业目的、公开传播或分发。\n"
+"\n"
+"用户需自行承担使用本项目可能带来的所有风险，项目开发者不对因使用本项目所引发的任何法律纠纷、版权问题或其他损害承担责任。\n"
+"\n"
+
+msgid ""
+"建议详细阅读说明文档，以便快速上手并充分了解各项功能设置。\n"
+"\n"
+"欢迎加入社区，获取项目最新动态、问题答疑和技术交流。\n"
+"\n"
+msgstr ""
+"建议详细阅读说明文档，以便快速上手并充分了解各项功能设置。\n"
+"\n"
+"欢迎加入社区，获取项目最新动态、问题答疑和技术交流。\n"
+"\n"
+
+# -------------- src/utils/common/data/priority.py --------------
+msgid "8K 超高清"
+msgstr "8K 超高清"
+
+msgid "杜比视界"
+msgstr "杜比视界"
+
+msgid "HDR 真彩"
+msgstr "HDR 真彩"
+
+msgid "4K 超高清"
+msgstr "4K 超高清"
+
+msgid "1080P 60帧"
+msgstr "1080P 60帧"
+
+msgid "1080P 高码率"
+msgstr "1080P 高码率"
+
+msgid "智能修复"
+msgstr "智能修复"
+
+msgid "1080P 高清"
+msgstr "1080P 高清"
+
+msgid "720P 准高清"
+msgstr "720P 准高清"
+
+msgid "480P 标清"
+msgstr "480P 标清"
+
+msgid "360P 流畅"
+msgstr "360P 流畅"
+
+msgid "Hi-Res 无损"
+msgstr "Hi-Res 无损"
+
+msgid "杜比全景声"
+msgstr "杜比全景声"
+
+# -------------- src/utils/common/exception.py --------------
+msgid ""
+"%s\n"
+"\n"
+"描述：%s"
+msgstr ""
+"%s\n"
+"\n"
+"描述：%s"
+
+msgid "错误"
+msgstr "错误"
+
+msgid "详细信息"
+msgstr "详细信息"
+
+# -------------- src/utils/common/map.py --------------
+msgid "覆盖原文件"
+msgstr "覆盖原文件"
+
+msgid "重命名文件"
+msgstr "重命名文件"
+
+msgid "总是从 1 开始"
+msgstr "总是从 1 开始"
+
+msgid "连贯递增"
+msgstr "连贯递增"
+
+msgid "使用剧集列表序号"
+msgstr "使用剧集列表序号"
+
+msgid "隐藏到托盘"
+msgstr "隐藏到托盘"
+
+msgid "直接退出"
+msgstr "直接退出"
+
+msgid "总是询问"
+msgstr "总是询问"
+
+msgid "首次询问"
+msgstr "首次询问"
+
+msgid "自动选择"
+msgstr "自动选择"
+
+msgid "使用系统 Webview 组件"
+msgstr "使用系统 Webview 组件"
+
+msgid "使用系统默认浏览器"
+msgstr "使用系统默认浏览器"
+
+msgid "文件创建日期"
+msgstr "文件创建日期"
+
+msgid "上映日期"
+msgstr "上映日期"
+
+msgid "请求成功"
+msgstr "请求成功"
+
+msgid "未找到该房间"
+msgstr "未找到该房间"
+
+msgid "请求错误"
+msgstr "请求错误"
+
+msgid "权限不足"
+msgstr "权限不足"
+
+msgid "视频不存在"
+msgstr "视频不存在"
+
+msgid "请求过于频繁，请稍后再试"
+msgstr "请求过于频繁，请稍后再试"
+
+msgid "根据版权方要求，您所在的地区无法观看本片"
+msgstr "根据版权方要求，您所在的地区无法观看本片"
+
+msgid "大会员专享限制"
+msgstr "大会员专享限制"
+
+msgid "应版权方要求本片需购买"
+msgstr "应版权方要求本片需购买"
+
+msgid "无效的链接"
+msgstr "无效的链接"
+
+msgid "跳转链接"
+msgstr "跳转链接"
+
+msgid "执行外部命令失败"
+msgstr "执行外部命令失败"
+
+msgid "下载失败"
+msgstr "下载失败"
+
+msgid "下载失败达到最大重试次数"
+msgstr "下载失败达到最大重试次数"
+
+msgid "用户终止解析操作"
+msgstr "用户终止解析操作"
+
+msgid "该内容采用 WideVine DRM 技术加密，不支持下载"
+msgstr "该内容采用 WideVine DRM 技术加密，不支持下载"
+
+msgid "稿件不可见"
+msgstr "稿件不可见"
+
+msgid "稿件审核中"
+msgstr "稿件审核中"
+
+msgid "仅 UP 主自己可见"
+msgstr "仅 UP 主自己可见"
+
+msgid "房间信息不存在"
+msgstr "房间信息不存在"
+
+# -------------- src/utils/parse/preview.py --------------
+msgid "按优先级自动选择"
+msgstr "按优先级自动选择"
+
+# -------------- src/main.py --------------
+msgid ""
+"缺少 Microsoft Visual C++ 运行库，无法运行本程序。\n"
+"\n"
+"请前往 https://aka.ms/vs/17/release/vc_redist.x64.exe 下载安装 Microsoft Visual C++ 2015-2022 运行库。\n"
+"\n"
+"%s"
+msgstr ""
+"缺少 Microsoft Visual C++ 运行库，无法运行本程序。\n"
+"\n"
+"请前往 https://aka.ms/vs/17/release/vc_redist.x64.exe 下载安装 Microsoft Visual C++ 2015-2022 运行库。\n"
+"\n"
+"%s"
+
+msgid ""
+"初始化 wxPython 失败\n"
+"\n"
+"%s"
+msgstr ""
+"初始化 wxPython 失败\n"
+"\n"
+"%s"
+
+msgid ""
+"请更新 protobuf 至最新版本\n"
+"当前版本：%s\n"
+"建议版本：6.32.0 或更高"
+msgstr ""
+"请更新 protobuf 至最新版本\n"
+"当前版本：%s\n"
+"建议版本：6.32.0 或更高"
+
+msgid "执行：pip install protobuf --upgrade"
+msgstr "执行：pip install protobuf --upgrade"
+
+msgid ""
+"初始化 protobuf 失败\n"
+"\n"
+"%s"
+msgstr ""
+"初始化 protobuf 失败\n"
+"\n"
+"%s"
+
+msgid ""
+"初始化程序失败\n"
+"\n"
+"%s"
+msgstr ""
+"初始化程序失败\n"
+"\n"
+"%s"
+
+msgid "无法连接到 api.bilibili.com，请更换网络环境重试\n\n%s"
+msgstr "无法连接到 api.bilibili.com，请更换网络环境重试\n\n%s"
